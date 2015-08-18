@@ -16,9 +16,9 @@ public class ExemploController {
 	 * 
 	 * @return
 	 */
-	@RequestMapping(method=RequestMethod.GET, value="/hello")
+	@RequestMapping(method=RequestMethod.GET, value="/")
 	public String hello() {
-		return "Hello Joaquim";
+		return "Hello Bernowly";
 	}
 
 }
